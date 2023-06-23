@@ -20,4 +20,4 @@ Cada uno de estos desayunos bandera tiene un sabor único y refleja la riqueza c
 </ul>
 
 # AUTOR :
-REBECA  POMA : Scrum Maste
+REBECA  POMA : Scrum Master
