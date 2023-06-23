@@ -3,4 +3,4 @@ Los desayunos bandera del Perú son una muestra de la diversidad culinaria y cul
 
 Cada uno de estos desayunos bandera tiene un sabor único y refleja la riqueza cultural y gastronómica del Perú. Son una excelente manera de comenzar el día y sumergirse en la variedad de sabores que ofrece este hermoso país.
 
-<img src="Images/img_7.jpg" alt="" >
+<img src="Images/img_7.jpg" alt="" width="120" height="100"/>
