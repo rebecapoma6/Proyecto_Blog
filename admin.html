@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="">
+        <form onsubmit="event.preventDefault(); enviarFormulario();">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required><br>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea><br>
+            <label for="imagen">Imagen:</label>
+            <input type="file" id="imagen" accept="image/*" required><br>
+            <button type="submit">Enviar</button><br>
+            <div id="entradas">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="Script/main.js"></script>
     
 </body>
 </html>
