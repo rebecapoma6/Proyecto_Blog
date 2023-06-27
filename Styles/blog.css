@@ -10,7 +10,7 @@
 }
 
 .line{
-    border-top: 5px solid #0077C0;
+    border-top: 5px solid #f50400;
     margin-bottom: 40px;
 }
 
@@ -28,11 +28,13 @@
     position: relative;
     height:250px;
     margin-bottom:5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
 }
 .imagen img{
     width: 100%;
     height:100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -40,7 +42,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background:rgba(0, 118, 192, 0.781) ;
+    background: #ff8962a2;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -48,7 +50,7 @@
 }
 
 .effects h2{
-    color: #fff;
+    color: #ffff;
     font-weight: 300;
     font-size:30px;
     position: absolute;
