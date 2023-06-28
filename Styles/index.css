@@ -18,19 +18,17 @@ body {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: .625rem;
- 
 }
 
 .barNav a {
     margin: 5px;
-    color: white;
+    color: rgb(17, 16, 16);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
-    cursor: pointer;
-   
+    cursor: pointer;  
+    text-align: center;
    
 }
 
@@ -39,13 +37,27 @@ body {
     border-radius: 15px;
   } 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 375px) {
     .barNav {
         justify-content: flex-start;
+      
     }
 
     .barNav a {
-        margin: 0 10px;
+        margin: 0 0px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .barNav {
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+
+    .barNav a {
+        margin: 0 0px;
+        align-items: center;
     }
 }
 
@@ -100,6 +112,7 @@ button[type="submit"] {
 
 /* Estilos para pantallas más grandes */
 @media screen and (min-width: 600px) {
+    
     form {
         max-width: 600px;
         margin: 0 auto;
@@ -111,7 +124,7 @@ button[type="submit"] {
 }
 
 /* Estilos para pantallas más pequeñas */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     form {
         padding: 10px;
     }

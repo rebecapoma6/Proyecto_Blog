@@ -14,16 +14,16 @@
 .line{
     border-top: 5px solid #f50400;
     margin-bottom: 40px;
-}
+} 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:370px){
     .report{
         width: 90%;
     }
     .report .images_blog{
         width: 48%;
     }
-}
+} 
 
 .report {
     display: flex;
@@ -46,5 +46,28 @@
     width: 50%;
     object-fit: cover;
     border-radius: .625rem;
+    margin-left: 50px;
 
 }
+
+@media screen and (min-width: 600px) {
+    .welcome {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .images_blog {
+        margin-bottom: 0;
+        height: 50%;
+       
+    }
+
+    .report {
+        padding: .625rem;
+        max-width: 600px;
+    }
+
+} 
+
